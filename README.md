@@ -1,2 +1,2 @@
 # onlineshopTW
-styling only, still html and tailwind only!!
+styling only, only use html and tailwind
