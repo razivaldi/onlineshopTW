@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1440, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7b441f8451.js" crossorigin="anonymous"></script>
+</head>
+
+<body class=" text-white bg-body">
+    
+    <!-- nav bar -->
+    
+    <nav class="h-[60px] bg-nav">
+        <div class="h-full w-[800px] flex mx-auto justify-between items-center">
+            <div class="flex items-center">
+                <a href="homepage.html" class="flex items-center">
+                    <img src="../src/img/logo.png" alt="logo" class="w-[100px]">
+                    <h3 class="font-bold text-xl">E-Commerse Buku</h3>
+                </a>
+            </div>
+            <div>
+                <ul class="flex">
+                    <li class="p-3"><a href=""><i class="fa-solid fa-gear fa-lg"></i></a></li>
+                    <li class="p-3"><a href=""><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
+                    <li class="p-3"><a href="mycart.html"><i class="fa-solid fa-cart-shopping fa-lg"></i></a></li>
+                    <li class="p-3 group relative hover:cursor-pointer"><i class="fa-solid fa-circle-user fa-lg"></i>
+                        <ul class="absolute right-2 top-14 bg-drop invisible rounded-md group-hover:visible duration-150">
+                            <li class="px-3 my-2 py-2 w-48 hover:bg-[#19306a]">Email@example.com</li>
+                            <hr>
+                            <li class="px-3 my-1 py-2 hover:bg-[#19306a]">All eBooks</li>
+                            <a href="profile.html">
+                            <li class="px-3 my-1 py-2 hover:bg-[#19306a]">
+                                Dashboard</li>
+                            </a>
+                            <hr>
+                            <li class="px-3 my-2 py-2 hover:bg-[#19306a]">Sign Out</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section -->
+    <section class="w-[800px] mx-auto">
+        <div class="p-8 flex">
+            <div class="flex flex-col justify-evenly items-start shrink">
+                <h1 class="font-bold text-3xl">Cek Toko Sebelah</h1>
+                <p class="my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quae magnam voluptatem rerum
+                    praesentium quisquam perspiciatis</p>
+                    <a href="product.html">
+                        <button class="bg-btn p-2 rounded-md font-medium hover:bg-btn2">Explore eBooks</button>
+                    </a>
+            </div>
+            <img src="../src/img/conten.jpg" alt="" class="w-1/2 rounded-lg ml-3">
+        </div>
+
+        <!-- Featured eBooks -->
+        <h2 class="text-center font-bold text-3xl underline underline-offset-8 mt-20 my-14">Featured eBooks</h2>
+        <div class="grid grid-cols-3 gap-5">
+            <div class="border rounded-md overflow-hidden">
+                <img src="../src/img/conten.jpg" alt="">
+                <div class="px-4">
+                    <h3 class="my-2 font-semibold text-lg">Lorem ipsum dolor sit amet.</h3>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore ullam
+                        incidunt tenetur eius?</p>
+                    <p class="text-star my-2"><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    <div class="flex justify-between mb-4">
+                        <p class="font-bold text-2xl">$99</p>
+                        <button class="bg-btn px-2 rounded-md hover:bg-btn2">Add to Cart <i
+                                class="fa-solid fa-plus fa-xs"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="border rounded-md overflow-hidden">
+                <img src="../src/img/conten.jpg" alt="">
+                <div class="px-4">
+                    <h3 class="my-2 font-semibold text-lg">Lorem ipsum dolor sit amet.</h3>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore ullam
+                        incidunt tenetur eius?</p>
+                    <p class="text-star my-2"><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    <div class="flex justify-between mb-4">
+                        <p class="font-bold text-2xl">$99</p>
+                        <button class="bg-btn px-2 rounded-md hover:bg-btn2">Add to Cart <i
+                                class="fa-solid fa-plus fa-xs"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="border rounded-md overflow-hidden">
+                <img src="../src/img/conten.jpg" alt="">
+                <div class="px-4">
+                    <h3 class="my-2 font-semibold text-lg">Lorem ipsum dolor sit amet.</h3>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore ullam
+                        incidunt tenetur eius?</p>
+                    <p class="text-star my-2"><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    <div class="flex justify-between mb-4">
+                        <p class="font-bold text-2xl">$99</p>
+                        <button class="bg-btn px-2 rounded-md hover:bg-btn2">Add to Cart <i
+                                class="fa-solid fa-plus fa-xs"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- costumer opinion -->
+        <h2 class="text-center font-bold text-3xl underline underline-offset-8 my-14 mt-32
+        ">Apa Kata Customer Kami?</h2>
+        <div class="grid grid-cols-2 gap-6">
+            <div class="border py-7 px-5 rounded-md">
+                <h3 class="text-xl mb-5 text-center font-semibold">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis impedit
+                    quae.</p>
+                <div class="flex h-16 mt-8 justify-center">
+                    <img src="../src/img/profil.jpg" alt="" class="rounded-full w-12 h-12 mr-4 object-cover">
+                    <div>
+                        <h5 class="font-semibold">Lorem</h5>
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border py-7 px-5 rounded-md">
+                <h3 class="text-xl mb-5 text-center font-semibold">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis impedit
+                    quae.</p>
+                <div class="flex h-16 mt-8 justify-center">
+                    <img src="../src/img/profil.jpg" alt="" class="rounded-full w-12 h-12 mr-4 object-cover">
+                    <div>
+                        <h5 class="font-semibold">Lorem</h5>
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border py-7 px-5 rounded-md">
+                <h3 class="text-xl mb-5 text-center font-semibold">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis impedit
+                    quae.</p>
+                <div class="flex h-16 mt-8 justify-center">
+                    <img src="../src/img/profil.jpg" alt="" class="rounded-full w-12 h-12 mr-4 object-cover">
+                    <div>
+                        <h5 class="font-semibold">Lorem</h5>
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border py-7 px-5 rounded-md">
+                <h3 class="text-xl mb-5 text-center font-semibold">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis impedit
+                    quae.</p>
+                <div class="flex h-16 mt-8 justify-center">
+                    <img src="../src/img/profil.jpg" alt="" class="rounded-full w-12 h-12 mr-4 object-cover">
+                    <div>
+                        <h5 class="font-semibold">Lorem</h5>
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="border mt-32 rounded-lg py-16 px-20">
+            <h2 class="font-bold text-center text-3xl underline underline-offset-8 mb-12">FAQ?</h2>
+            <div class="flex justify-between border-b items-center p-6">
+                <p class="text-lg font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-chevron-down fa-lg"></i>
+            </div>
+            <div class="flex justify-between border-b items-center p-6">
+                <p class="text-lg font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-chevron-down fa-lg"></i>
+            </div>
+            <div class="flex justify-between border-b items-center p-6">
+                <p class="text-lg font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-chevron-down fa-lg"></i>
+            </div>
+            <div class="flex justify-between border-b items-center p-6">
+                <p class="text-lg font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-chevron-down fa-lg"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="w-[800px] mx-auto h-[60px] mt-20 flex justify-between items-center">
+        <p>&copy 2023 Cek Toko Sebelah. All Right Reserved.</p>
+        <div class="space-x-4">
+            <i class="fa-brands fa-x-twitter fa-xl"></i>
+            <i class="fa-brands fa-github fa-xl"></i>
+            <i class="fa-brands fa-square-threads fa-xl"></i>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCart</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/7b441f8451.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="text-white bg-body">
+
+    <!-- navbar -->
+    
+    <nav class="h-[60px] bg-nav">
+        <div class="h-full w-[800px] flex mx-auto justify-between items-center">
+            <div class="flex items-center">
+                <a href="homepage.html" class="flex items-center">
+                    <img src="../src/img/logo.png" alt="logo" class="w-[100px]">
+                    <h3 class="font-bold text-xl">E-Commerse Buku</h3>
+                </a>
+            </div>
+            <div>
+                <ul class="flex">
+                    <li class="p-3"><a href=""><i class="fa-solid fa-gear fa-lg"></i></a></li>
+                    <li class="p-3"><a href=""><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
+                    <li class="p-3"><a href="mycart.html"><i class="fa-solid fa-cart-shopping fa-lg"></i></a></li>
+                    <li class="p-3 group relative hover:cursor-pointer"><i class="fa-solid fa-circle-user fa-lg"></i>
+                        <ul class="absolute right-2 top-14 bg-drop invisible rounded-md group-hover:visible duration-150">
+                            <li class="px-3 my-2 py-2 w-48 hover:bg-[#19306a]">Email@example.com</li>
+                            <hr>
+                            <li class="px-3 my-1 py-2 hover:bg-[#19306a]">All eBooks</li>
+                            <a href="profile.html">
+                            <li class="px-3 my-1 py-2 hover:bg-[#19306a]">
+                                Dashboard</li>
+                            </a>
+                            <hr>
+                            <li class="px-3 my-2 py-2 hover:bg-[#19306a]">Sign Out</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- section / content -->
+
+    <section class="w-[800px] mx-auto">
+        <h2 class="font-bold text-2xl text-center my-12 underline underline-offset-8">My Cart (3)</h2>
+        <div class="px-10">
+            <div class="flex px-8 py-3 border-b">
+                <img src="../src/img/conten.jpg" alt="" class="w-[18%]">
+                <div class="flex justify-between w-full">
+                    <div class="ml-3">
+                        <p class="text-lg font-medium px-1 py-1">Lorem ipsum dolor sit amet.</p>
+                        <button class="text-[#DE6363] rounded px-1 transition duration-500 ease-out hover:text-white hover:bg-[#DE6363] font-medium ">Remove</button>
+                    </div>
+                    <p class="font-semibold text-2xl">$99</p>
+                </div>
+            </div>
+        </div>
+        <div class="px-10">
+            <div class="flex px-8 py-3 border-b">
+                <img src="../src/img/conten.jpg" alt="" class="w-[18%]">
+                <div class="flex justify-between w-full">
+                    <div class="ml-3">
+                        <p class="text-lg font-medium px-1 py-1">Lorem ipsum dolor sit amet.</p>
+                        <button class="text-[#DE6363] rounded px-1 transition duration-500 ease-out hover:text-white hover:bg-[#DE6363] font-medium ">Remove</button>
+                    </div>
+                    <p class="font-semibold text-2xl">$99</p> 
+                </div>
+            </div>
+        </div>
+        <div class="px-10">
+            <div class="flex px-8 py-3 border-b">
+                <img src="../src/img/conten.jpg" alt="" class="w-[18%]">
+                <div class="flex justify-between w-full">
+                    <div class="ml-3">
+                        <p class="text-lg font-medium px-1 py-1">Lorem ipsum dolor sit amet.</p>
+                        <button class="text-[#DE6363] rounded px-1 transition duration-500 ease-out hover:text-white hover:bg-[#DE6363] font-medium ">Remove</button>
+                    </div>
+                    <p class="font-semibold text-2xl">$99</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-between mx-10 py-4 px-8 items-center border-b mt-4">
+            <h3 class="font-semibold text-xl">Total Amount</h3>
+            <p class="font-semibold text-2xl">$297</p>
+        </div>
+
+        <!-- place order -->
+        
+        <div class="text-right mx-10 mt-16">
+            <button class="bg-btn px-3 py-1.5 rounded-md font-medium uppercase hover:bg-btn2">Place Order <i class="ml-1 fa-solid fa-arrow-right fa-fw"></i></button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    
+    <footer class="w-[800px] mx-auto h-[60px] mt-20 flex justify-between items-center">
+        <p>&copy 2023 Cek Toko Sebelah. All Right Reserved.</p>
+        <div class="space-x-4">
+            <i class="fa-brands fa-x-twitter fa-xl"></i>
+            <i class="fa-brands fa-github fa-xl"></i>
+            <i class="fa-brands fa-square-threads fa-xl"></i>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
